@@ -1,0 +1,709 @@
+/* ----------------------------Nav bar CSS--------------------------------------------------------- */
+
+/* .header-group-child {
+  position: absolute;
+  top: 0;
+  
+  background-color: #2e2f2d;
+  width: 1980px;
+  height: 152px;
+  padding: 0%;
+  margin: 0px;
+  
+}
+.about-me,
+.blogs,
+.contact-me,
+.home,
+.services {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 50px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+}
+.about-me,
+.blogs,
+.contact-me,
+.home {
+  left: calc(50% + 355px);
+}
+.blogs,
+.contact-me,
+.home {
+  left: calc(50% + 251px);
+}
+.contact-me,
+.home {
+  left: calc(50% + 493px);
+}
+.home {
+  left: calc(50% + 22px);
+}
+
+
+/* .home{
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 700px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+}
+
+.services{
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 800px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+}
+
+.blogs{
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 910px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+}
+
+.about-me{
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 1000px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+}
+
+.contact-me{
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 1130px;;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0%;
+} */ 
+
+.logo_1{
+  position: absolute;
+  /* top: -55px; */
+  /* left: 100px; */
+  /* padding: 10px 0; */
+  width: 230px;
+  height: 230px;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+
+  left: 0;
+  right: 0;
+  background-color: #2e2f2d;
+  width: 1490px;
+  height: 80px;
+  padding: 15px;
+  margin: 0px;
+  box-shadow: 21px 26px 31px rgba(0, 0, 0, 0.31);;
+    
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nav-links a:nth-child(1) {
+  position:relative;
+  left: 840px;
+  top: 35px;
+  font-family: var(--font-circular-std);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0%;
+
+}
+
+.nav-links a:nth-child(2) {
+  position: relative;
+  left: 840px;
+  top: 35px;
+  font-family: var(--font-circular-std);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0%;
+}
+
+.nav-links a:nth-child(3) {
+  position: relative;
+  left: 840px;
+  top: 35px;
+  font-family: var(--font-circular-std);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0%;
+}
+
+.nav-links a:nth-child(4) {
+  position: relative;
+  left: 840px;
+  top: 35px;
+  font-family: var(--font-circular-std);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0%;
+}
+
+.nav-links a:nth-child(5) {
+  /* position: absolute; */
+
+  position:relative;
+  left: 840px;
+  top: 35px;
+  font-family: var(--font-circular-std);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0%;
+}
+
+/* Hover effect for the navigation links */
+.nav-links a:hover {
+  color: var(--color-sandybrown);
+  border-bottom: none;
+}
+.nav-links a:hover::after {
+  width: 80%;
+}
+.nav-links a::after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 2px solid #ffcc00;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  transition: width 0.2s;
+}
+.navbar-inner {
+  display: flex;
+  align-items: center;
+}
+.navbar{
+  box-sizing: border-box;
+}
+/* ----------------------------------------------End of nav bar csss--------------------------------------------------- */
+
+
+
+/* -------------------------Main Body: About me group------------------------------------ */
+
+/* Rectangle skin colour  */
+.skin_rectangle {
+  position: absolute;
+  top:0px;
+  background-color: #E1E1D1;
+  width: 1520px;
+  height: 1156px;
+  padding: 0;
+  margin: 0;
+
+}
+.rollover-image {
+  position: absolute;
+  top: 107px;
+  left: 110px;
+  width: 1291px;
+  height: 614px;
+  object-fit: cover;
+}
+.about-me1,
+.i-am-abhilash,
+.about_me_info{
+  position: absolute;
+  top: 31px;
+  left: 631px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.i-am-abhilash,
+.about_me_info{
+  top: 741px;
+  left: 318px;
+  font-size: 32px;
+}
+.about_me_info {
+  top: 808px;
+  left: 105px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--font-circular-std);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+  width: 1229px;
+  height: 280px;
+}
+.about-me-group {
+  box-sizing: border-box;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 1440px;
+  height: 1156px;
+  font-size: 38px;
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-satoshi);
+}
+
+/* -------------------------------------------------------End of Main Body------------------------------------------------------ */
+
+/* -------------------------------------------------Services group ------------------------------------------------------------- */
+.services-group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2e2f2d;
+  width: 1520px;
+  height: 724px;
+}
+.services1 {
+  position: absolute;
+  top: 84px;
+  left: 638px;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 900;
+  color: var(--color-sandybrown);
+}
+
+/* box items and shadow for box */
+
+.rectangle-div,
+.services-group-inner,
+.services-group-item {
+  position: absolute;
+  top: 203px;
+  left: 80px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-darkslategray-100);
+  box-shadow: 21px 26px 31px rgba(0, 0, 0, 0.31);
+  width: 375px;
+  height: 388px;
+}
+.rectangle-div,
+.services-group-inner {
+  left: 533px;
+}
+.rectangle-div {
+  left: 985px;
+}
+
+/* Text inside box */
+
+.photoshop {
+  margin: 0;
+  color: #E1E1D1;
+}
+.photoshop1{
+  position: absolute;
+  top: 0px;
+  left: -23px;
+  /* text-transform: capitalize; */
+  font-weight: 800;
+  color: #E1E1D1;
+}
+.frontend-development,
+.photoshop-manipulation,
+.ui-ux-designing {
+  position: absolute;
+  top: 236px;
+  left: 173px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #E1E1D1;
+}
+.frontend-development,
+.ui-ux-designing {
+  top: 254px;
+  left: 602px;
+}
+.frontend-development {
+  top: 234px;
+  left: 1076px;
+}
+.lorem-ipsum-dolor1,
+.lorem-ipsum-dolor2,
+.lorem-ipsum-dolor3 {
+  position: absolute;
+  top: 334px;
+  left: 123px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: var(--font-circular-std);
+  color: var(--color-antiquewhite-200);
+  text-align: justify;
+  display: inline-block;
+  width: 289px;
+}
+.lorem-ipsum-dolor2,
+.lorem-ipsum-dolor3 {
+  left: 576px;
+}
+.lorem-ipsum-dolor3 {
+  left: 1028px;
+}
+.services-group {
+  box-sizing: border-box;
+  position: absolute;
+  top: 1255px;
+  left: 0;
+  width: 1440px;
+  height: 724px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-satoshi);
+}
+
+
+/* -----------------------------------Worked with founders group------------------------------------------------------ */
+.working_group_skin_rectangle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #E1E1D1;
+  width: 1520px;
+  height: 1124px;
+}
+.worked-with-founder {
+  position: absolute;
+  top: 84px;
+  left: 350px;
+  font-size: var(--font-size-21xl);
+  font-weight: 900;
+  font-family: var(--font-satoshi);
+  text-align: center;
+}
+.kalakartlogo{
+  position: absolute;
+  top: 201px;
+  left: 604px;
+  width: 278px;
+  height: 278px;
+  object-fit: cover;
+}
+.briflylogo,
+.expasnselogo{
+  position: absolute;
+  top: 250px;
+  left: 204px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.briflylogo {
+  top: 289px;
+  left: 1071px;
+  width: 276px;
+  height: 112px;
+}
+.expanse-digital {
+  position: absolute;
+  top: 451px;
+  left: 192px;
+  text-transform: capitalize;
+}
+.brifly-initially-began,
+.kalakart-is-indias{
+  position: absolute;
+  top: 508px;
+  left: 567px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 331px;
+}
+.we-design-build {
+  position: absolute;
+  top: 508px;
+  left: 517px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 331px;
+}
+.brifly-initially-began{
+  left: 1051px;  
+}
+.we-design-build {
+  left: 961px;
+}
+.we-design-build {
+  left: 119px;
+}
+.brifly-news,
+.kalakarts-india {
+  position: absolute;
+  top: 451px;
+  left: 644px;
+  text-transform: capitalize;
+}
+.brifly-news {
+  top: 444px;
+  left: 1141px;
+}
+
+.testimonials{
+  position: absolute;
+  top: 714px;
+  left: 480px;
+  font-size: var(--font-size-21xl);
+  font-weight: 900;
+  font-family: var(--font-satoshi);
+  text-align: center;
+}
+.testimonials_info{
+  position: absolute;
+  top: 31px;
+  left: 631px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+
+.testimonials_info{
+  top: 741px;
+  left: 318px;
+  font-size: 32px;
+}
+
+
+.testimonials_info{
+  top: 808px;
+  left: 105px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--font-circular-std);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+  width: 1229px;
+  height: 280px;
+}
+.working-group {
+  box-sizing: border-box;
+  position: absolute;
+  top: 1979px;
+  left: 0;
+  width: 1440px;
+  height: 724px;
+  text-align: justify;
+  color: var(--color-darkslategray-200);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-satoshi);
+
+}
+
+.Neeraj_madhav{
+  position: absolute;
+  text-transform: capitalize;
+  font-weight: 1200;
+  top: 1008px;
+  left: 1105px;
+  font-size: 28px;
+  font-weight: 1200;
+  font-family: var(--font-circular-std);
+  color: var(--color-black);
+  /* text-align: justify; */
+  display: inline-block;
+  font-weight: bold;
+}
+.Designation{
+  position: absolute;
+  text-transform: capitalize;
+  font-weight: 400;
+  top: 1048px;
+  left: 1105px;
+  font-size: 18px;
+  font-weight: 1200;
+  font-family: var(--font-circular-std);
+  color: var(--color-black);
+  /* text-align: justify; */
+  display: inline-block;
+  /* font-weight: bold; */
+}
+
+/* -----------------------------------END of Worked with founders group------------------------------------------------------ */
+
+/* -------------------------------Discover how i works group---------------------------------------------------- */
+.discover-how-i {
+  position: absolute;
+  top: 84px;
+  left: 518px;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 900;
+  color: var(--color-sandybrown);
+}
+.achieving-company-goal-container,
+.expanding-horizons,
+.scaling-ads-container {
+  position: absolute;
+  top: 236px;
+  left: 190px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.achieving-company-goal-container,
+.scaling-ads-container {
+  top: 233px;
+  left: 622px;
+}
+.achieving-company-goal-container {
+  top: 234px;
+  left: 1023px;
+}
+.discover-group,
+.working-group-child {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  height: 724px;
+}
+.discover-group {
+  box-sizing: border-box;
+  top: 3103px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-satoshi);
+}
+
+
+
+
+
+
+/* ----------------------------End of discover how i work group----------------------------------------------- */
+
+
+
+
+/* .header-group-parent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 5400px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-antiquewhite-100);
+  font-family: var(--font-circular-std);
+}
+.logo-1-icon {
+  position: absolute;
+  top: 27px;
+  left: 45px;
+  width: 290px;
+  height: 125px;
+  object-fit: cover;
+}
+.header-group {
+  position: absolute;
+  top: calc(50% - 2700px);
+  left: 0px;
+  width: 1980px;
+  height: 152px;
+  padding: 0%;
+  margin: 0px; */
+/* }
+
+*/
+
+/* -----------------------------------------footer group------------------------------------------------------------------ */
+
+.footer-group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sandybrown);
+  width: 1440px;
+  height: 500px;
+}
+.my-logo-white-2 {
+  position: absolute;
+  top: 115px;
+  left: 464px;
+  width: 488px;
+  height: 218.04px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.footer-group-item {
+  position: absolute;
+  top: 331.96px;
+  left: 351px;
+  width: 23px;
+  height: 20.55px;
+}
+.c-copyright-cc {
+  top: 315.98px;
+  left: 291px;
+  display: flex;
+}
+.c-copyright-cc,
+.div,
+.div1,
+.gmit-davangere-karnataka,
+.phone-number940350683 {
+  position: absolute;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+  width: 308px;
+  height: 53.62px;
+}
+.gmit-davangere-karnataka {
+  top: 315.98px;
+  left: 554px;
+  display: none;
+}
+.div,
+.div1,
+.phone-number940350683 {
+  top: 317.77px;
+  left: 840px;
+  display: flex;
+}
+.div,
+.div1 {
+  top: 324.02px;
+  left: 537px;
+  font-size: var(--font-size-6xl);
+  width: 56px;
+  height: 26.81px;
+}
+.div1 {
+  left: 824px;
+}
+.about-me-group-child,
+.footer-group {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.footer-group {
+  box-sizing: border-box;
+
+  top: 4900px;
+  height: 500px;
+  color: var(--color-black);
+}
